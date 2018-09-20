@@ -1,0 +1,10 @@
+.container-fluid {
+    //border: 1px solid #ddd;
+max-width: 800px;
+}
+.img-fluid {
+    max-width: 600px;
+}
+#tabel1 {
+    margin-top: 50px;
+}
