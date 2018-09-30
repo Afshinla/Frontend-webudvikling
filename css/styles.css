@@ -1,5 +1,5 @@
 .container-fluid {
-    //border: 1px solid #ddd;
+    border: 1px solid #ddd;
 max-width: 800px;
 }
 .img-fluid {
@@ -7,4 +7,8 @@ max-width: 800px;
 }
 #tabel1 {
     margin-top: 50px;
+}
+footer{
+    background: rgba(44, 156, 221, 0.877);
+
 }
