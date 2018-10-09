@@ -159,9 +159,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js"></script>
 
-</main> 
+</main>
+
 <footer role="contentinfo">
     <p>&copy; <a href="http://www.aarhus.dk" title="aarhus.dk" target="_blank">aarhus.dk</a> | follow me and on Facebook! <a href="https://www.facebook.com/lakzadeh" title="Follow me on Facebook">@lakzadeh</a></p>
 </footer>
+<?php include 'footer.php';?>
 </body>
 </html>
