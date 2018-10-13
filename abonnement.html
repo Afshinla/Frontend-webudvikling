@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/styles.css">
 <title>Abonnement service</title>
 </head>
 <body>
@@ -17,18 +17,18 @@
         <p>Den mest præcise vejrudsigt i verden.</p>
     </div>
 </header>
-<main>
+        <div class="container" id="main">
 
-    <form action="welcome.php" method="get">
-        Nave: <input type="text" name="name"><br>
-        Jobtitel: <input type="text" name="jobtitle"><br>
-        E-mail: <input type="text" name="email"><br>
-        Adresse: <input type="text" name="adresse"><br>
-        Telefonnummer: <input type="text" name="telefonnumber"><br>
-        <input type="submit">
-    </form>
-
-</main>
+                <form action="user.php" method="post">
+                    <span class="indent" style="width:150px">Navn:<br></span> <input type="text" name="a" value=""><br>
+                    <span class="indent" style="width:150px">Jobtitel:<br></span> <input type="text" name="b" value=""><br>
+                    <span class="indent" style="width:150px">E-mail:<br></span> <input type="text" name="c" value= ""><br>
+                    <span class="indent" style="width:150px">Telefonnummer:<br></span> <input type="text" name="d" value= ""><br>
+                    <span class="indent" style="width:150px">Adresse:<br></span> <input type="text" name="e" value= ""><br>
+                    <br>        
+                    <input type="submit" id ="submitVars" value="Submit" >
+                </form>
+        </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
